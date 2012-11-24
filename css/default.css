@@ -1,0 +1,377 @@
+* {
+margin:0; 
+padding:0;
+border:0;
+}
+
+body{
+background-color:#f5f5f5;
+font-family:Arial, Helvetica, sans-serif;
+font-size:9pt;
+color:#4d4e53;
+}
+
+@font-face {
+    font-family: 'DiavloLight';
+    src: url('diavlo_light_ii-webfont.eot');
+    src: url('diavlo_light_ii-webfont.eot?#iefix') format('embedded-opentype'),
+         url('diavlo_light_ii-webfont.woff') format('woff'),
+         url('diavlo_light_ii-webfont.ttf') format('truetype'),
+         url('diavlo_light_ii-webfont.svg#DiavloLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h1{
+position:relative;
+text-indent:-10000px;
+float:left;
+display:block;
+}
+
+h1 span{
+width:246px; height:60px;
+background:url(logo.gif) no-repeat;
+position:absolute;
+top:0; left:0;
+display:block;
+cursor:pointer;
+}
+
+h2.kategorie{
+font-family:DiavloLight, Trebuchet, sans-serif; 
+font-size:28px;
+text-shadow: 0 0 1px rgba(0,0,0,1);
+margin-bottom:20px;
+
+}
+
+h2{ font-size:16pt;}
+h2.homepage{
+font-family:DiavloLight;
+text-shadow: 0 0 1px rgb(1,1,1,1);
+color:white;
+font-size:26px;
+}
+
+h2.uppercase{
+font-size:14px; 
+text-transform:uppercase;
+}
+h3{ font-size:14pt;}
+
+a{
+color:#4d4e53;
+text-decoration:none;
+}
+
+a:hover{text-decoration:underline;}
+
+ul#menu{
+float:right;
+list-style:none;
+margin-top:10px;
+}
+ul#menu li{
+float:left;
+margin-left:5px;
+}
+ul#menu li a{
+float:left;
+height:37px;
+display:block;
+color:transparent;
+}
+
+ul#menu li a:hover, ul#menu li a.active{
+background-position:bottom;
+}
+
+a.uvod{
+width:62px; 
+background:url(uvod.gif);
+}
+
+a.sluzby{
+width:72px; 
+background:url(sluzby.gif);
+}
+
+a.sortiment{
+width:99px; 
+background:url(sortiment.gif);
+}
+
+a.kontakt{
+width:84px; 
+background:url(kontakt.gif);
+}
+ul#sortiment{
+list-style:none;
+disply:inline;
+float:left;
+margin-bottom:10px;
+padding-left:15px;
+height:38px;
+width:350px;
+background-color:#F5F8CC;
+}
+
+.levy_okraj{
+background-image:url(menu_corner_left.gif);
+width:7px; height:38px;
+display:block;
+float:left;
+}
+
+.pravy_okraj{
+background-image:url(menu_corner_right.gif);
+width:7px; height:38px;
+display:block;
+float:left;
+}
+
+ul#sortiment li {
+float:left;
+margin-right:20px;
+padding-bottom:2px;
+margin-top:12px;
+}
+
+ul#sortiment li a{
+text-transform:uppercase;
+letter-spacing:0.7px;
+font-weight:bold;
+text-decoration:none;
+
+float:left;
+display:block;
+height:38px;
+}
+ul#sortiment li a:hover{
+background-image:url(menu_sipka.gif);
+background-repeat:no-repeat;
+background-position:bottom center;
+}
+
+ul#sortiment li a:hover span{
+background-image:url(menu_sipka.gif);
+background-repeat:no-repeat;
+background-position:bottom center;
+}
+
+
+ul#sortiment_polozky{
+list-style:none;
+disply:inline;
+float:left;
+clear:both;
+margin-left:15px;
+margin-bottom:20px;
+}
+ul#sortiment_polozky li {
+float:left;
+margin-right:15px;
+padding-bottom:2px;
+}
+
+ul#sortiment_polozky li a{
+border-bottom:1px solid #ffffff;
+font-style:italic;
+text-decoration:none;
+letter-spacing:0.5px;
+font-weight:normal;}
+ul#sortiment_polozky li a:hover{border-bottom:1px solid #4d4e53;}
+ul#sortiment_polozky li a:active{border-bottom:1px solid #ccdc00;}
+
+#pageholder{
+width:800px; height:auto;
+position:relative;
+left:50%;
+margin-left:-400px;
+margin-top:20px;
+}
+
+#top{
+width:740px; height:90px;
+background:url(top.gif) #ffffff no-repeat;
+padding-top:20px;
+padding-left:30px;
+padding-right:30px;
+}
+
+#content{
+width:740px; height:auto;
+background-color:#ffffff;
+padding-top:5px;
+padding-bottom:30px;
+padding-left:30px;
+padding-right:30px;
+float:left;
+}
+
+#content-img{
+width:350px; height:356px;
+float:right;
+}
+
+#content-text{
+width:390px; height:auto;
+float:left; 
+line-height:1.5;
+clear:both;
+}
+
+#content-adresa{
+width:350px; height:auto;
+background-color:#f5f8cd;
+padding-left:15px;
+padding-top:15px;
+padding-bottom:15px;
+margin-top:40px;
+float:left; 
+line-height:1.5;
+clear:both;
+}
+
+#hello{
+background:url(homepage.gif) no-repeat;
+width:688px; height:497px;
+margin-left:20px;
+margin-top:30px;
+position:relative;
+}
+
+
+#hello_content{
+width:250px; height:100px;
+position:relative;
+top:40px; left:30px;
+
+text-align:center;
+font-size:14px;
+font-weight:bold;
+line-height:1.5;
+color:#ffffff;
+}
+
+.kontejner{
+width:740px; height:165px;
+background-color:#F5F8CC;
+margin-bottom:10px;
+}
+
+.duvody { 
+width:390px;
+float:left;
+margin-right:20px;
+margin-left:10px;
+margin-top:5px; 
+line-height:1.5;
+}
+
+.prvni{
+margin-top:30px;
+}
+.posledni{
+height:100px;
+margin-top:25px;
+background-color:transparent;
+}
+
+.cislo, .ikona, .text_sluzby{
+float:left;
+}
+
+.text_sluzby{
+width:310px;
+margin-left:50px;
+margin-top:23px;
+line-height:1.5;
+}
+
+.ikona{margin-left:36px;}
+.cislo{margin-left:80px;}
+
+.mapa{
+width:740px; height:249px;
+display:block;
+background:url(mapa.png) top no-repeat;
+-webkit-transition: 1.2s ease-in-out;  /* Saf3.2+, Chrome */
+-moz-transition: 1.2s ease-in-out;  /* FF4+ */
+-ms-transition: 1.2s ease-in-out;  /* IE10? */
+-o-transition: 1.2s ease-in-out;  /* Opera 10.5+ */
+transition: 1.2s ease-in-out;
+}
+.mapa:hover{
+background-position:bottom;
+}
+
+#orientace {
+width:197px; height:100px;
+float:right;
+margin-right:100px;
+margin-top:42px;
+}
+a.k_pusobnost, a.k_poloha{
+width:197px; height:43px;
+background:top no-repeat;
+display:block;
+}
+a.k_poloha{background-image:url(k_poloha.png); }
+a.k_pusobnost{background-image:url(k_pusobnost.png);margin-top:10px;}
+
+a.k_pusobnost:hover, a.k_poloha:hover{
+background-position:bottom;
+}
+
+.panel {
+width:740px; height:643px;
+clear:both;
+display:none;}
+
+img#pusobnost{
+width:559px; height:559px;
+margin-top:20px;
+margin-left:85px;
+opacity: 0.7;
+filter: alpha(opacity=70);
+-webkit-transition: opacity 0.4s linear;  /* Saf3.2+, Chrome */
+-moz-transition: opacity 0.4s linear;  /* FF4+ */
+-ms-transition: opacity 0.4s linear;  /* IE10? */
+-o-transition: opacity 0.4s linear;  /* Opera 10.5+ */
+transition: opacity 0.4s linear;
+}
+
+img#pusobnost:hover{
+width:559px; height:559px;
+opacity: 1;
+filter: alpha(opacity=100); 
+}
+
+#footer{
+width:740px; height:113px;
+background:url(footer.gif) #ffffff no-repeat;
+padding-left:30px;
+padding-right:30px;
+padding-top:40px;
+float:left;
+}
+
+#footer p{
+float:right;
+padding-top:50px;
+}
+
+#obalka{
+width:500px; height:73px;
+background:url(obalka.gif) no-repeat left;
+float:left;
+}
+
+#obalka p{
+margin-left:98px;
+padding-top:50px;
+float:left;
+}
