@@ -361,7 +361,11 @@ float:left;
 
 #footer p{
 float:right;
-padding-top:50px;
+padding-top:25px;
+}
+
+div#gdpr {
+  padding-top:25px;
 }
 
 #obalka{
