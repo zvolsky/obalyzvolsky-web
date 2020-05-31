@@ -35,7 +35,12 @@
 	  });
 	});
 </script>   
-   
+
+<!-- https://medium.com/@WebReflection/how-to-send-emails-from-static-websites-9a34ceb9416c -->
+<link rel="stylesheet" href="public/css/index.css">
+<script defer src="//unpkg.com/static.email"></script>
+<script defer src="public/js/index.js"></script>
+ 
 </head>
 
 <body>
@@ -72,8 +77,34 @@
 
             </div>
         </div>  
-    </div>
-    <div id="footer">
+
+        <div id="send-email">
+            <h2>Napište nám</h2>
+            <div id="send-hints">
+            <h4>Které naše zboží potřebujete nejvíc?</h4>
+            <h4>Co Vám chybí v našem sortimentu?</h4>
+            <h4>Co byste rád(a) zjistil(a) nebo nám vzkázal(a)?</h4>
+            </div>
+    
+            <fieldset>
+                <!--legend>Contact Me</legend-->
+                <form id="contact">
+                  <label>
+                    Vaše e-mailová adresa
+                    <input name="from" type="email" required>
+                  </label>
+                  <label>
+                    Váš vzkaz
+                    <textarea name="md" rows="10" required></textarea>
+                  </label>
+                  <input id="send-submit" name="submit" type="submit">
+                </form>
+              </fieldset>
+          </div>
+        </div>
+
+
+      <div id="footer">
     	<div id="obalka">
        		<p>e-mail: <a href="mailto:zvolsky.chvalovice@seznam.cz" title="zvolsky.chvalovice@seznam.cz">zvolsky.chvalovice@seznam.cz</a>, tel: 461100459</p>
         </div>

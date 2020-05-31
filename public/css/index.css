@@ -1,0 +1,91 @@
+html, body {
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  
+  h1 {
+    font-size: 1.2em;
+    text-align: center;
+  }
+  
+  fieldset {
+    margin: auto;
+    max-width: 710px;
+    border-color: rgba(0, 0, 0, .25);
+    border-radius: 4px;
+  }
+  
+  fieldset legend {
+    font-weight: bold;
+    opacity: .75;
+  }
+  
+  #contact label,
+  #contact input,
+  #contact textarea {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    margin-top: .75em;
+
+    line-height: 140%;
+}
+
+#contact input,
+#contact textarea {
+  border: 2px solid lightgray;
+  border-radius: 4px;
+  padding: 4px;
+  color: rgb(77, 78, 83);
+  font-size: 100%;
+}
+
+#contact input {
+  border: 2px solid lightgrey;
+  border-radius: 4px;
+  height: 30px;
+}
+
+#contact input:hover {
+    border-color: grey;
+}
+  
+#contact label {
+    font-size: 120%;
+}
+
+#contact textarea {
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input#send-submit {
+    height: 40px;
+    width: 200px;
+    background-color: rgb(77, 78, 83);
+    color: white;
+    font-size: 120%;
+}
+
+input#send-submit:hover {
+    height: 40px;
+    width: 200px;
+    color: black;
+    border-color: lightgrey;
+    background-color: #b1ec24;
+}
+
+div#send-email {
+    clear: both;
+    background-color: white;
+    margin: auto;
+    max-width: 710px;
+    padding-top: 30px;
+}
+div#send-email fieldset {
+    margin-top: 8px;
+  }  
+
+div#send-hints {
+    padding-top: 10px;
+}
