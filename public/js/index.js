@@ -7,7 +7,7 @@ StaticEmail = (function (StaticEmail) {
       if (from && md) {
         contact.submit.disabled = true;
         StaticEmail({
-          path: '/api/paperboy',
+          path: '/api/paperboy.js',
           subject: 'WEB: ' + from,
           from: from,
           md: md

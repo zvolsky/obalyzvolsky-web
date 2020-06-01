@@ -1,9 +1,11 @@
+/*
 module.exports = (request, response) => {
   if (request.method === 'POST')
     response.status(200).send('OK');
   else
     response.status(400).send('Bad Request');
 };
+*/
 
 // use the .env if present, do nothing otherwise
 require('dotenv').config();
@@ -19,7 +21,8 @@ const {
 // the serverless function that now will use
 module.exports = create({
   site: 'obalyzvolsky.cz',  // put your domain here
-  sender: 'kontakt-no-reply@obalyzvolsky.cz', // any sender name
+  //sender: 'kontakt-no-reply@obalyzvolsky.cz', // any sender name
+  sender: 'Nekdo z webu',
   to,
   region,
   accessKeyId,
