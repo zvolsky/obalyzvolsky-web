@@ -1,0 +1,9 @@
+{
+  "env": {
+    "AWS_SES_TO": "@aws_ses_to",
+    "AWS_SES_REGION": "@aws_ses_region",
+    "AWS_SES_ACCESS_KEY": "@obalyzvolsky_aws_ses_access_key",
+    "AWS_SES_SECRET_KEY": "@obalyzvolsky_aws_ses_secret_key"
+  }
+}
+
