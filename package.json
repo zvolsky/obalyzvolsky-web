@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/zvolsky/obalyzvolsky-web#readme",
   "dependencies": {
-    "now": "^19.0.1"
+    "vercel": "^19.0.1"
   }
 }
+
