@@ -1,3 +1,27 @@
+/*
+contact.addEventListener('submit', function (event) {
+  event.preventDefault();
+  contact.submit.disabled = true;
+debugger;
+StaticEmail({
+  // your zeit now SES enabled serverless function
+  path: '/api/paperboy',
+
+  // optional fields
+  from: 'Some Body <some@body.me>',
+  subject: 'Is it really that simple?',
+
+  // allowed content
+  html: '<strong>Great Service!</strong>',
+  md: '# Great Service!',
+  text: 'Great Service'
+})
+  .then(() => console.log('email sent 🎉'))
+  .catch(console.error);
+});
+*/
+
+
 // nullify the global reference while instrumenting the form
 StaticEmail = (function (StaticEmail) {
     contact.addEventListener('submit', function (event) {
@@ -7,7 +31,7 @@ StaticEmail = (function (StaticEmail) {
       if (from && md) {
         contact.submit.disabled = true;
         StaticEmail({
-          path: '/api/paperboy.js',
+          path: '/api/paperboy',
           subject: 'WEB: ' + from,
           from: from,
           md: md

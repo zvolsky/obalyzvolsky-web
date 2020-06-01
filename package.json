@@ -21,7 +21,8 @@
   },
   "homepage": "https://github.com/zvolsky/obalyzvolsky-web#readme",
   "dependencies": {
+    "dotenv": "^8.1.0",
+    "static.email.ses": "^0.1.3",
     "vercel": "^19.0.1"
   }
 }
-
