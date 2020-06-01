@@ -3,7 +3,7 @@ mz: Historie a stav webu k 1.6.2020
 
 Účty: Všechna hesla má mz v Keepassu a bylo by vhodné je předat.
 -----
-  Wedos: Správa domény obalyzvolsky.cz (její směrování+nastavení + její prodlužování/placení) - účet: zvolsky@seznam.cz
+  Wedos: Správa domény obalyzvolsky.cz (její směrování+nastavení + její prodlužování/placení) - účet: zvolsky@seznam.cz (tip: dnschecker.org)
   Github: zdrojáky: github.com/zvolsky/obalyzvolsky-web
   Vercel: hosting - účet: zvolsky
   Amazon: mail AWS SES - účet: obalyzvolsky
@@ -41,6 +41,9 @@ Návratem k větvi gh-pages je tedy možné statické stránky na githubu obnovi
 
 Nové řešení od 2020: (Vercel místo Github Pages)
 --------------------
+podle: https://medium.com/@WebReflection/how-to-send-emails-from-static-websites-9a34ceb9416c
+  pozn.: možná by jednodušší bylo toto: https://github.com/dwyl/learn-to-send-email-via-google-script-html-no-server/blob/master/README.md
+  a asi nejlepší jsem našel nejpozději: https://formspree.io/
 
 obalyzvolsky.cz jako cz doména je pochopitelně vydána nic.cz,
   na nic.cz/whois lze zjistit jejího momentálního registrátora (Wedos) a směrování NS (vercel-dns).
